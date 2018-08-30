@@ -25,3 +25,9 @@
 .create-button:hover {
   background: #86205f;
 }
+
+@media only screen and (max-width: 500px) {
+  .form {
+    width: 220px;
+  }
+}
