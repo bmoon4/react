@@ -23,6 +23,7 @@ class HomeContents extends Component {
             tempus eros non erat sagittis, a fringilla orci interdum. Maecenas
             vitae ligula purus.{" "}
           </p>
+
         </div>
       </div>
     );

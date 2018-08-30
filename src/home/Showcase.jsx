@@ -18,6 +18,9 @@ class Showcase extends Component {
             ullamcorper, nunc nunc sodales metus, in condimentum justo sapien ut
             diam.
           </p>
+          <div id="btnToGit">
+            <a href="https://github.com/bmoon4/react"><button id="gitHub">View Sourcecode</button></a>
+          </div>
         </div>
       </div>
     );

@@ -166,6 +166,27 @@ h2 {
 #highlight {
   color: coral;
 }
+#btnToGit{
+  text-align: center;
+}
+#gitHub{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1rem;
+  background: rgb(40, 94, 156);
+  border-radius: 3px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  border:0px;
+}
+#gitHub:hover{
+  background: #86205f;
+}
+
+
 
 @media only screen and (max-width: 1024px) {
   .box-wrapper,
