@@ -44,6 +44,10 @@ class ContactContents extends Component {
                 <a href="https://bkmoon.herokuapp.com/portfolio">
                   https://bkmoon.herokuapp.com/portfolio
                 </a>
+                <span>
+                  &nbsp;&nbsp; (**Sorry! Not responsive yet. PC/Laptop
+                  preferred..)
+                </span>
               </li>
               <li>
                 <a href="http://bmoon4.github.io/">http://bmoon4.github.io/</a>
