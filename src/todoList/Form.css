@@ -28,6 +28,18 @@
 
 @media only screen and (max-width: 500px) {
   .form {
+    display: inline;
+  }
+
+  .form input {
     width: 100%;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+
+  .create-button {
+    text-align: center;
+    width: 90%;
+    margin: auto;
   }
 }
