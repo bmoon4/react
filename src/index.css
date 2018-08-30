@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Anton|Permanent+Marker|Roboto+Condensed");
+/*Font
+
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-family: 'Anton', sans-serif;
+
+  font-family: 'Permanent Marker', cursive;
+
+*/
+
+/*global*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f3f3f3;
+}
+
+/*Header*/
+
+header {
+  min-height: 150px;
+  font-size: 20px;
+  color: white;
+  background-color: black;
+}
+
+/*Logo*/
+#logo {
+  float: left;
+  font-family: "Anton", sans-serif;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+/*Nav*/
+#nav {
+  margin-right: 50px;
+  padding-top: 20px;
+}
+#nav ul {
+  float: right;
+  list-style: none;
+  padding-top: 10px;
+  margin: auto;
+}
+#nav li {
+  display: inline-block;
+  padding-right: 5px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #f3f3f3;
+  font-size: 1.4em;
+}
+
+#nav a:hover,
+#nav span:hover {
+  color: rgb(31, 132, 150);
+}
+
+/*Footer*/
+footer {
+  min-height: 20px;
+  font-size: 1em;
+  color: white;
+  background-color: black;
+}
+
+/*Contents in Body - Home, About, Service*/
+
+.homeContents,
+.aboutContents,
+.contactContents {
+  min-height: 790px;
+  font-size: 1em;
+}
+
+/*Home*/
+
+.homeContents p {
+  padding: 20px;
+  text-align: left;
+}
+
+/*About*/
+.aboutContents {
+  width: 100%;
+  overflow: hidden;
+}
+
+.aboutContents h1,
+h2 {
+  padding: 20px;
+  text-align: center;
+}
+.box-wrapper {
+  text-align: center;
+}
+.box {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid lightslategray;
+  box-sizing: border-box;
+  padding: 10px;
+}
+/*Contact*/
+
+.contactContents {
+  padding-top: 30px;
+  text-align: center;
+  line-height: 200%;
+  box-sizing: border-box;
+}
+/*Showcase*/
+.showcase {
+  color: white;
+  min-height: 600px;
+  text-align: center;
+  padding: 20px;
+  background-image: url(./image/reactjs.jpg);
+  background-repeat: no-repeat;
+  background-position-y: 45%;
+  box-sizing: border-box;
+}
+.showcase h1 {
+  color: rgb(40, 94, 156);
+  font-size: 3em;
+}
+
+.showcase p {
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .box-wrapper,
+  .box {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 1px;
+    border: 1px solid lightslategray;
+    box-sizing: border-box;
+  }
+}
