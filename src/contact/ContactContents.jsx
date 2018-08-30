@@ -54,7 +54,7 @@ class ContactContents extends Component {
               </li>
             </ul>
 
-            <h2>Bulletin Board & Login Practice (Node.js|MongoDB)</h2>
+            <h2>Bulletin Board & Login Practice (Node.js | MongoDB)</h2>
             <ul>
               <li>
                 <a href="https://nodejsbkmoon.herokuapp.com/">

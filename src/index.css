@@ -17,11 +17,19 @@
   padding: 0;
 }
 
+html,
+body {
+  height: 100%;
+}
 body {
   font-family: "Roboto Condensed", sans-serif;
   background-color: #f3f3f3;
 }
 
+#holder {
+  min-height: 100%;
+  position: relative;
+}
 /*Header*/
 
 header {
@@ -69,10 +77,15 @@ header {
 
 /*Footer*/
 footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   min-height: 20px;
   font-size: 1em;
   color: white;
   background-color: black;
+  text-align: center;
 }
 
 /*Contents in Body - Home, About, To-do List, Contact*/

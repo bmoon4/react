@@ -5,7 +5,10 @@ class Footer extends Component {
     return (
       <div>
         <footer>
-          <p>This is Footer. Bokyung Moon &copy; 2018</p>
+          <p>
+            This webpage was created by using React.js &nbsp; | &nbsp;Bokyung
+            Moon &copy; 2018
+          </p>
         </footer>
       </div>
     );
