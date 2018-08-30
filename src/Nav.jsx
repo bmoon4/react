@@ -9,10 +9,16 @@ class Nav extends Component {
           <nav>
             <ul>
               <li>
-                <Link to="/">HOME</Link>
+                <Link to="/">HOME </Link>|
               </li>
               <li>
-                <Link to="/about">ABOUT</Link>
+                <Link to="/about">ABOUT </Link>|
+              </li>
+              <li>
+                <Link to="/todolist">
+                  <span id="highlight">TO-DO APP </span>
+                </Link>
+                |
               </li>
               <li>
                 <Link to="/contact">CONTACT</Link>

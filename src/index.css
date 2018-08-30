@@ -75,7 +75,7 @@ footer {
   background-color: black;
 }
 
-/*Contents in Body - Home, About, Service*/
+/*Contents in Body - Home, About, To-do List, Contact*/
 
 .homeContents,
 .aboutContents,
@@ -115,6 +115,13 @@ h2 {
   box-sizing: border-box;
   padding: 10px;
 }
+
+/*Todo List*/
+.todoListContents {
+  font-size: 1em;
+  min-height: 500px;
+}
+
 /*Contact*/
 
 .contactContents {
@@ -143,6 +150,9 @@ h2 {
   padding-top: 30px;
   font-size: 20px;
 }
+#highlight {
+  color: coral;
+}
 
 @media only screen and (max-width: 1024px) {
   .box-wrapper,
@@ -154,5 +164,14 @@ h2 {
     padding: 1px;
     border: 1px solid lightslategray;
     box-sizing: border-box;
+  }
+  header {
+    min-height: 200px;
+    padding-top: 25px;
+    font-size: 20px;
+    box-sizing: border-box;
+  }
+  #nav {
+    margin-left: 15px;
   }
 }
