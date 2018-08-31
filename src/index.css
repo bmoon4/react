@@ -143,6 +143,9 @@ h2 {
   line-height: 200%;
   box-sizing: border-box;
 }
+.contactInfo{
+  padding-bottom:30px;
+}
 /*Showcase*/
 .showcase {
   color: white;
@@ -208,4 +211,10 @@ h2 {
   #nav {
     margin-left: 15px;
   }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
 }
