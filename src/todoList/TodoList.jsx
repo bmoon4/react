@@ -36,7 +36,7 @@ class TodoList extends Component {
       });
     }
     else {
-      alert("Please Fill the blank :p");
+      alert("Please, fill the blank :p");
     }
   }
 
