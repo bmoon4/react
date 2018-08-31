@@ -24,16 +24,21 @@ class TodoList extends Component {
 
   handleCreate = () => {
     const { input, todos } = this.state;
-    this.setState({
-      input: "", //empty the input
-      todos: todos.concat({
-        // add to the array by using concat
-        id: this.id++,
-        text: input,
-        checked: false
-      })
-    });
-  };
+    if (input !== "") {
+      this.setState({
+        input: "", //empty the input
+        todos: todos.concat({
+          // add to the array by using concat
+          id: this.id++,
+          text: input,
+          checked: false
+        })
+      });
+    }
+    else {
+      alert("Please Fill the blank :p");
+    }
+  }
 
   handleKeyPress = e => {
     if (e.key === "Enter") {
