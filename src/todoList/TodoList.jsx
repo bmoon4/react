@@ -84,22 +84,25 @@ class TodoList extends Component {
     return (
       <div>
         <Header />
-        <TodoListTemplate
-          form={
-            <Form
-              value={input}
-              onKeyPress={handleKeyPress}
-              onChange={handleChange}
-              onCreate={handleCreate}
+        <div className="todoContents">
+          <TodoListTemplate
+            form={
+              <Form
+                value={input}
+                onKeyPress={handleKeyPress}
+                onChange={handleChange}
+                onCreate={handleCreate}
+              />
+            }
+          >
+            <TodoItemList
+              todos={todos}
+              onToggle={handleToggle}
+              onRemove={handleRemove}
             />
-          }
-        >
-          <TodoItemList
-            todos={todos}
-            onToggle={handleToggle}
-            onRemove={handleRemove}
-          />
-        </TodoListTemplate>
+          </TodoListTemplate>
+        </div>
+
         <Footer />
       </div>
     );

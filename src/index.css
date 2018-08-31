@@ -100,6 +100,9 @@ footer {
   font-size: 1em;
   padding-bottom:30px;
 }
+.todoContents{
+  min-height:600px;
+}
 
 /*Home*/
 
@@ -139,7 +142,6 @@ h2 {
 /*Todo List*/
 .todoListContents {
   font-size: 1em;
-  min-height: 500px;
 }
 
 /*Contact*/
