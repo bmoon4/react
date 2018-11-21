@@ -10,7 +10,7 @@ class ContactContents extends Component {
           <div className="contactInfo">
             <h2>Bokyung Moon</h2>
             <h3>Email: bkmoon0702@gmail.com</h3>
-            <h3>Phone: 778.680.3992</h3>
+            <h3>Phone: 647.864.3992</h3>
             <h3>
               LinkedIn:{" "}
               <a href="https://www.linkedin.com/in/elainemoon07/">
@@ -45,7 +45,7 @@ class ContactContents extends Component {
                   https://bkmoon.herokuapp.com/portfolio
                 </a>
                 <span>
-                  &nbsp;&nbsp; (**Sorry! Not responsive yet. PC/Laptop
+                  &nbsp;&nbsp; (**Opps! Not responsive yet. PC/Laptop
                   preferred..)
                 </span>
               </li>
